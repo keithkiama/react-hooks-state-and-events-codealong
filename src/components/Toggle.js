@@ -9,8 +9,6 @@ function Toggle() {
     setIsOn((isOn) => !isOn);
   }
 
-  const color = isOn ? "red" : "white";
-  
   return <button  style={{ background: "red" }} onClick={handleClick}>{isOn ? "ON" : "OFF"}</button>;
 }
 
